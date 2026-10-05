@@ -22,4 +22,4 @@ Python, SQL, pandas, scikit-learn, PyTorch, Flask, SQLAlchemy, and pytest.
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/agalkova/)
+[Portfolio](https://portfolio-five-inky-26.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/agalkova/)
