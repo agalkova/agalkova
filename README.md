@@ -4,6 +4,10 @@ I build applied machine learning and data projects, drawing on a background in c
 
 ## Selected work
 
+### [Point-in-Time Equity Risk](https://github.com/agalkova/point-in-time-equity-risk)
+
+A quantitative research system for ranking severe post-run-up drawdown risk using historical index membership, market data, and filing-date-safe SEC fundamentals. Developed from my James Rocco Quantitative Data Research Scholarship project, the frozen model separated risk out of time in 91,299 S&P 500 observations and transferred unchanged to a nearly non-overlapping S&P 400 sample. The portfolio tests did not establish alpha.
+
 ### [EFFR forecasting](https://github.com/agalkova/effr-forecasting-ml)
 
 A one-month-ahead benchmark for the Effective Federal Funds Rate using official Federal Reserve data. The model design was developed on data through February 2017 and tested on 114 later observations through August 2026. Ridge reduced external-period RMSE from 0.1922 to 0.1606 percentage points relative to persistence, while its smaller MAE advantage remained inconclusive.
