@@ -22,8 +22,8 @@ I diagnosed an ineffective snapshot test in an existing Python project, added pe
 
 ## Tools I use
 
-Python, SQL, pandas, scikit-learn, PyTorch, Flask, SQLAlchemy, and pytest.
+Python, SQL (Microsoft SQL Server), Git, pandas, scikit-learn, PyTorch, Flask, SQLAlchemy, pytest, and GitHub Actions.
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/agalkova/)
+[Website](https://agalkova.com/) · [LinkedIn](https://www.linkedin.com/in/agalkova/)
