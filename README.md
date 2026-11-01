@@ -22,7 +22,7 @@ I diagnosed an ineffective snapshot test in an existing Python project, added pe
 
 ## Tools I use
 
-Python, SQL (Microsoft SQL Server), Git, NumPy, pandas, scikit-learn, PyTorch, pytest, and GitHub Actions.
+Python, SQL (PostgreSQL and SQL Server), Git, NumPy, pandas, scikit-learn, PyTorch, pytest, and GitHub Actions.
 
 ## Contact
 
