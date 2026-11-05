@@ -1,28 +1,26 @@
 # Hi, I'm Anastasia
 
-I build applied machine learning and data projects, drawing on a background in computer science and economics. I care about clear evaluation, reproducible results, and software that holds up beyond a demo.
+I'm a computer science and economics student graduating in December 2026. I build data systems and analytical workflows in Python, with an emphasis on point-in-time data, reproducibility, and careful evaluation.
+
+I'm targeting data engineering and data analytics roles and will be available to start in February 2027.
 
 ## Selected work
 
+### [AsOf](https://github.com/agalkova/asof)
+
+A service for reconstructing what an economic series reported on a given date, before later revisions. It includes storage adapters, a read-only FastAPI API, command-line sync tools, and real database integration tests in GitHub Actions. The AWS deployment is designed but not yet deployed.
+
 ### [Point-in-Time Equity Risk](https://github.com/agalkova/point-in-time-equity-risk)
 
-A quantitative research system for ranking severe post-run-up drawdown risk using historical index membership, market data, and filing-date-safe SEC fundamentals. Developed from my James Rocco Quantitative Data Research Scholarship project, the frozen model separated risk out of time in 91,299 S&P 500 observations and transferred unchanged to a nearly non-overlapping S&P 400 sample. The portfolio tests did not establish alpha.
+A research pipeline for ranking severe post-run-up drawdown risk using historical index membership, market data, and filing-date-safe SEC fundamentals. The model is evaluated chronologically and tested on a separate mid-cap sample. The portfolio experiments did not establish a reliable market-beating strategy.
 
-### [EFFR forecasting](https://github.com/agalkova/effr-forecasting-ml)
+### [EFFR Forecasting](https://github.com/agalkova/effr-forecasting-ml)
 
-A one-month-ahead benchmark for the Effective Federal Funds Rate using official Federal Reserve data. The model design was developed on data through February 2017 and tested on 114 later observations through August 2026. Ridge reduced external-period RMSE from 0.1922 to 0.1606 percentage points relative to persistence, while its smaller MAE advantage remained inconclusive.
+A reproducible one-month-ahead benchmark comparing persistence, Ridge regression, and Random Forest on official Federal Reserve data. All features use lagged rates, with expanding-window validation during development and a separate later data snapshot for external evaluation.
 
 ### [Craft Forum NLP](https://github.com/agalkova/craft-forum-nlp)
 
-An NLP study of 212 manually labeled posts from art and craft forums. The evaluation keeps entire discussion threads out of training and compares TF–IDF with two DistilBERT variants, showing why a simpler model can be more reliable on limited data.
-
-### [PathReview contribution](https://github.com/agalkova/pathreview)
-
-I diagnosed an ineffective snapshot test in an existing Python project, added per-version regression protection for prompt templates, and verified the behavior with mutation testing. I submitted the work in [upstream PR #769](https://github.com/ascherj/pathreview/pull/769), which was closed without being merged; the tested implementation remains in this fork.
-
-## Tools I use
-
-Python, SQL (PostgreSQL and SQL Server), Git, NumPy, pandas, scikit-learn, PyTorch, pytest, and GitHub Actions.
+A text-classification benchmark built from 212 manually labeled excerpts from art and craft forums. It compares a majority baseline, TF–IDF with logistic regression, and two DistilBERT variants. The current implementation keeps each source thread in a single split.
 
 ## Contact
 
