@@ -12,7 +12,7 @@ A service for reconstructing what an economic series reported on a given date, b
 
 ### [Point-in-Time Equity Risk](https://github.com/agalkova/point-in-time-equity-risk)
 
-A research pipeline for ranking severe post-run-up drawdown risk using historical index membership, market data, and filing-date-safe SEC fundamentals. The model is evaluated chronologically and tested on a separate mid-cap sample. The portfolio experiments did not establish a reliable market-beating strategy.
+A research pipeline for ranking severe post-run-up drawdown risk using historical index membership, market data, and filing-date-safe SEC fundamentals. It grew out of my research supported by the James Rocco Quantitative Data Research Scholarship. The model is evaluated chronologically and tested on a separate mid-cap sample. The portfolio experiments did not establish a reliable market-beating strategy.
 
 ### [EFFR Forecasting](https://github.com/agalkova/effr-forecasting-ml)
 
@@ -21,6 +21,10 @@ A reproducible one-month-ahead benchmark comparing persistence, Ridge regression
 ### [Craft Forum NLP](https://github.com/agalkova/craft-forum-nlp)
 
 A text-classification benchmark built from 212 manually labeled excerpts from art and craft forums. It compares a majority baseline, TF–IDF with logistic regression, and two DistilBERT variants. The current implementation keeps each source thread in a single split.
+
+## Tools
+
+Python, pandas, NumPy, scikit-learn, PyTorch, FastAPI, pytest, and GitHub Actions.
 
 ## Contact
 
